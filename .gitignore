@@ -1,0 +1,13 @@
+# Sistema operatiu
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Fitxers temporals
+*.tmp
+*.bak
