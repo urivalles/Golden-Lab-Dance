@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Dance Lab - Vilafranca del Penedès</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header/Nav -->
+    <nav class="p-6 flex justify-between items-center bg-white shadow-sm">
+        <h1 class="text-2xl font-bold tracking-tighter text-yellow-600 uppercase">Golden<span class="text-gray-900">DanceLab</span></h1>
+        <div class="space-x-6 hidden md:flex">
+            <a href="#classes" class="hover:text-yellow-600 transition">Classes</a>
+            <a href="#horaris" class="hover:text-yellow-600 transition">Horaris</a>
+            <a href="#equip" class="hover:text-yellow-600 transition">Equip</a>
+            <a href="#galeria" class="hover:text-yellow-600 transition">Galeria</a>
+            <a href="#google-reviews" class="hover:text-yellow-600 transition">Ressenyes</a>
+            <a href="#preus" class="hover:text-yellow-600 transition">Preus</a>
+            <a href="#testimonis" class="hover:text-yellow-600 transition">Testimonis</a>
+            <a href="#contacte" class="hover:text-yellow-600 transition">Contacte</a>
+        </div>
+        <a href="https://www.instagram.com/goldendancelab/" target="_blank" class="bg-black text-white px-5 py-2 rounded-full font-medium hover:bg-gray-800 transition">Instagram</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-[70vh] flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1535525153412-5a42439a210d?auto=format&fit=crop&q=80&w=2000" 
+             alt="Dance background" 
+             class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white px-4">
+            <h2 class="text-5xl md:text-7xl font-bold mb-4 uppercase tracking-tighter">Golden Dance Lab</h2>
+            <p class="text-xl md:text-2xl font-light mb-8">Especialistes en danses urbanes a Vilafranca.</p>
+            <a href="#classes" class="bg-yellow-500 text-black px-8 py-4 rounded-full text-lg font-bold hover:bg-yellow-400 transition transform inline-block">Reserva la teva classe</a>
+        </div>
+    </header>
+
+    <!-- Age Sections -->
+    <section id="classes" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold mb-2">Entra a la cultura urbana</h3>
+            <p class="text-gray-600">Sota la direcció d'Elisa Medrano, formem ballarins de tots els nivells.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Infantil -->
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&q=80&w=800" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
+                </div>
+                <h4 class="text-xl font-bold mb-2">Infantil (3-12 anys)</h4>
+                <p class="text-gray-600">Iniciació al ritme i moviment amb els estils més actuals.</p>
+            </div>
+
+            <!-- Juvenil -->
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1579684385163-ea0dc0473957?auto=format&fit=crop&q=80&w=800" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
+                </div>
+                <h4 class="text-xl font-bold mb-2">Juvenil (13-17 anys)</h4>
+                <p class="text-gray-600">Hip Hop, Urban Dance i competició. Treballa la teva actitud.</p>
+            </div>
+
+            <!-- Adults -->
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-2xl mb-4">
+                    <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=800" class="group-hover:scale-110 transition duration-500 w-full h-64 object-cover">
+                </div>
+                <h4 class="text-xl font-bold mb-2">Adults (+18)</h4>
+                <p class="text-gray-600">Classes obertes per a desconnectar i aprendre noves coreografies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horaris Section -->
+    <section id="horaris" class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold mb-2 uppercase tracking-tight">Horaris de les Classes</h3>
+                <p class="text-gray-600">Troba el teu moment per brillar amb nosaltres</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Infantil -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-xl font-bold mb-6 text-center border-b pb-2 uppercase text-gray-700">Infantil</h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Dilluns</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">17:00 - 18:00</span></div>
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Dimecres</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">17:00 - 18:00</span></div>
+                    </div>
+                </div>
+
+                <!-- Juvenil -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-xl font-bold mb-6 text-center border-b pb-2 uppercase text-gray-700">Juvenil</h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Dimarts</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">18:30 - 19:30</span></div>
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Dijous</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">18:30 - 19:30</span></div>
+                    </div>
+                </div>
+
+                <!-- Adults -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-xl font-bold mb-6 text-center border-b pb-2 uppercase text-gray-700">Adults</h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Dilluns</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">20:00 - 21:00</span></div>
+                        <div class="flex justify-between items-center"><span class="font-semibold text-gray-600">Divendres</span> <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-bold">19:30 - 20:30</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Reviews Section -->
+    <section id="google-reviews" class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-12">
+                <div class="text-left mb-6 md:mb-0">
+                    <h3 class="text-3xl font-bold uppercase tracking-tight flex items-center">
+                        Ressenyes a <span class="ml-2 text-blue-500">G</span><span class="text-red-500">o</span><span class="text-yellow-500">o</span><span class="text-blue-500">g</span><span class="text-green-500">l</span><span class="text-red-500">e</span>
+                    </h3>
+                    <div class="flex items-center mt-2">
+                        <div class="flex text-yellow-400">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <span class="ml-2 text-gray-600 font-bold text-lg">4.9 / 5</span>
+                    </div>
+                </div>
+                <a href="https://www.google.com/maps/place/Golden+Dance+Lab/@41.3433011,1.69357,17z/data=!4m8!3m7!1s0x12a479901584620f:0x679093e877708518!8m2!3d41.3433011!4d1.6961449!9m1!1b1!16s%2Fg%2F11f_6_3661" target="_blank" class="bg-white border-2 border-gray-200 text-gray-700 px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition">Escriure una ressenya</a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">J</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Jordi Martínez</h4>
+                            <div class="flex text-yellow-400 text-xs">
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-xs italic leading-relaxed">"Ambient increïble i professors molt top. La millor escola de danses urbanes del Penedès sense cap dubte."</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Marta Font</h4>
+                            <div class="flex text-yellow-400 text-xs">
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-xs italic leading-relaxed">"Grans professionals i un tracte exquisit amb els nens. La meva filla hi va feliç cada setmana!"</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold mr-3">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Albert Vila</h4>
+                            <div class="flex text-yellow-400 text-xs">
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                                <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-xs italic leading-relaxed">"Molt content amb l'evolució del grup d'adults. Un lloc per aprendre i passar-ho bé!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonis Section -->
+    <section id="testimonis" class="py-20 bg-gray-50 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-2 uppercase tracking-tight">Què diuen els nostres alumnes?</h3>
+            <p class="text-gray-600 mb-12">La passió per la dansa compartida per la nostra comunitat.</p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimoni 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm italic text-gray-700 relative text-left">
+                    <span class="text-6xl text-yellow-500/20 absolute top-4 left-4 font-serif">“</span>
+                    <p class="mb-6 relative z-10">"L'Elisa és una gran professional. Les classes de danses urbanes són brutals i el nivell és increïble!"</p>
+                    <p class="font-bold text-gray-900 not-italic">— Marc S.</p>
+                </div>
+
+                <!-- Testimoni 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm italic text-gray-700 relative text-left">
+                    <span class="text-6xl text-yellow-500/20 absolute top-4 left-4 font-serif">“</span>
+                    <p class="mb-6 relative z-10">"La meva filla està encantada amb les classes d'infantil. Molta energia, diversió i aprenentatge constant."</p>
+                    <p class="font-bold text-gray-900 not-italic">— Laia R.</p>
+                </div>
+
+                <!-- Testimoni 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm italic text-gray-700 relative text-left">
+                    <span class="text-6xl text-yellow-500/20 absolute top-4 left-4 font-serif">“</span>
+                    <p class="mb-6 relative z-10">"Un lloc on desconnectar de tot i gaudir ballant. Molt bon rotllo i una comunitat molt acollidora."</p>
+                    <p class="font-bold text-gray-900 not-italic">— Carla M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equip Section -->
+    <section id="equip" class="py-20 bg-gray-50 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-2 uppercase tracking-tight">El Nostre Equip</h3>
+            <p class="text-gray-600 mb-12">Coneix els professionals que t'acompanyaran en el teu viatge de dansa.</p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Professor 1 (Elisa Medrano) -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=400&h=400" alt="Elisa Medrano" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-500">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">Elisa Medrano</h4>
+                    <p class="text-yellow-600 font-semibold mb-3">Directora i Coreògrafa</p>
+                    <ul class="text-gray-600 text-sm list-disc list-inside text-left mx-auto max-w-xs">
+                        <li>Hip Hop</li>
+                        <li>Urban Dance</li>
+                        <li>Coreografia de competició</li>
+                    </ul>
+                </div>
+
+                <!-- Professor 2 (Exemple) -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=400&h=400" alt="Professor 2" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-500">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">Marc Garcia</h4>
+                    <p class="text-yellow-600 font-semibold mb-3">Professor de Breakdance</p>
+                    <ul class="text-gray-600 text-sm list-disc list-inside text-left mx-auto max-w-xs">
+                        <li>Breakdance (B-boying)</li>
+                        <li>Popping & Locking</li>
+                        <li>Freestyle</li>
+                    </ul>
+                </div>
+
+                <!-- Professor 3 (Exemple) -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1546869681-9314f364022a?auto=format&fit=crop&q=80&w=400&h=400" alt="Professor 3" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-500">
+                    <h4 class="text-xl font-bold mb-2 text-gray-800">Laura Pons</h4>
+                    <p class="text-yellow-600 font-semibold mb-3">Professora de Dansa Moderna</p>
+                    <ul class="text-gray-600 text-sm list-disc list-inside text-left mx-auto max-w-xs">
+                        <li>Dansa Contemporània</li>
+                        <li>Jazz Funk</li>
+                        <li>Líric</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-2 uppercase tracking-tight">Galeria</h3>
+            <p class="text-gray-600 mb-12">Ments i cossos en moviment. Mira com treballem!</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Image 1 -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1535525153412-5a42439a210d?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(0)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Grup de ballarins urbans">
+                </div>
+                <!-- Image 2 -->
+                <div class="overflow-hidden rounded-xl h-64 md:col-span-2">
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=1200" onclick="openLightbox(1)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Ballarins en acció">
+                </div>
+                <!-- Image 3 (Classe urbana) -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(2)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Classe de dansa urbana">
+                </div>
+                <!-- Image 4 -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(3)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Moviment de ball">
+                </div>
+                <!-- Image 5 -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1533227268408-a56e7910373c?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(4)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Breakdance en acció">
+                </div>
+                <!-- Image 6 (Nova) -->
+                <div class="overflow-hidden rounded-xl h-64 md:col-span-2">
+                    <img src="https://images.unsplash.com/photo-1504609813442-a8924e83f73e?auto=format&fit=crop&q=80&w=1200" onclick="openLightbox(5)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Grup de ballarins">
+                </div>
+                <!-- Image 7 (Nova) -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1579684385163-ea0dc0473957?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(6)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Ballarins joves">
+                </div>
+                <!-- Image 8 (Nova) -->
+                <div class="overflow-hidden rounded-xl h-64">
+                    <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&q=80&w=600" onclick="openLightbox(7)" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer shadow-md" alt="Nens ballant">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preus Section -->
+    <section id="preus" class="py-20 bg-white px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-2 uppercase tracking-tight">Les nostres Tarifes</h3>
+            <p class="text-gray-600 mb-12">Troba l'opció que millor s'adapta a tu.</p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Classe Solta -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-2xl font-bold mb-4 uppercase text-gray-800">Classe Solta</h4>
+                    <p class="text-4xl font-extrabold text-yellow-600 mb-4">15€</p>
+                    <p class="text-gray-600 mb-6">Prova una classe sense compromís. Ideal per començar!</p>
+                    <a href="https://wa.me/34000000000" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition">Contacta</a>
+                </div>
+
+                <!-- Quota Mensual -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-2xl font-bold mb-4 uppercase text-gray-800">Quota Mensual</h4>
+                    <p class="text-4xl font-extrabold text-yellow-600 mb-4">50€ <span class="text-lg text-gray-500">/mes</span></p>
+                    <p class="text-gray-600 mb-6">Accés a totes les classes del teu grup d'edat. Pagament mensual.</p>
+                    <a href="https://wa.me/34000000000" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition">Inscriu-te</a>
+                </div>
+
+                <!-- Abonament Trimestral -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-yellow-500 shadow-sm hover:shadow-md transition">
+                    <h4 class="text-2xl font-bold mb-4 uppercase text-gray-800">Abonament Trimestral</h4>
+                    <p class="text-4xl font-extrabold text-yellow-600 mb-4">135€ <span class="text-lg text-gray-500">/trimestre</span></p>
+                    <p class="text-gray-600 mb-6">Estalvia amb el nostre abonament trimestral. Compromís i continuïtat.</p>
+                    <a href="https://wa.me/34000000000" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition">Més info</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner CTA -->
+    <section id="contacte" class="bg-black py-16 text-white text-center">
+        <h3 class="text-3xl font-bold mb-6">T'esperem al barri!</h3>
+        <p class="mb-8 opacity-90">Vine a visitar-nos al centre de Vilafranca.</p>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+            <span class="border border-yellow-500/50 px-4 py-2 rounded-lg">C/ Bisbe Morgades, 34, Vilafranca del Penedès</span>
+            <span class="border border-yellow-500/50 px-4 py-2 rounded-lg">@goldendancelab</span>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section class="w-full h-96 bg-gray-200">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.4172442436733!2d1.6961448766155627!3d41.34330109867015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a479901584620f%3A0x679093e877708518!2sCarrer%20del%20Bisbe%20Morgades%2C%2034%2C%2008720%20Vilafranca%20del%20Pened%C3%A8s%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1716380000000!5m2!1sca!2ses" 
+            class="w-full h-full border-0" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="py-10 text-center text-gray-400 text-sm">
+        <p>&copy; 2024 Golden Dance Lab. Dirigida per Elisa Medrano.</p>
+    </footer>
+
+    <!-- Botó de WhatsApp Flotant -->
+    <a href="https://wa.me/34000000000" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 z-50 flex items-center justify-center" aria-label="Contacta per WhatsApp">
+        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300 overflow-hidden">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-5xl hover:text-yellow-500 transition z-[110]" aria-label="Tanca">&times;</button>
+        
+        <!-- Botons de navegació -->
+        <button onclick="prevImage(event)" class="absolute left-4 md:left-10 text-white text-6xl hover:text-yellow-500 transition z-[110]" aria-label="Anterior">&lsaquo;</button>
+        <button onclick="nextImage(event)" class="absolute right-4 md:right-10 text-white text-6xl hover:text-yellow-500 transition z-[110]" aria-label="Següent">&rsaquo;</button>
+
+        <img id="lightbox-img" src="" alt="Foto de dansa ampliada" class="max-w-full max-h-full rounded-lg shadow-2xl transition-all duration-300 transform translate-x-0">
+    </div>
+
+    <script>
+        let currentImageIndex = 0;
+        const galleryImages = [
+            "https://images.unsplash.com/photo-1535525153412-5a42439a210d?auto=format&fit=crop&q=80&w=1200", // Grup de ballarins urbans
+            "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=1200", // Ballarins en acció
+            "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?auto=format&fit=crop&q=80&w=1200", // Classe de dansa urbana
+            "https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&q=80&w=1200", // Moviment de ball
+            "https://images.unsplash.com/photo-1533227268408-a56e7910373c?auto=format&fit=crop&q=80&w=1200", // Breakdance en acció
+            "https://images.unsplash.com/photo-1504609813442-a8924e83f73e?auto=format&fit=crop&q=80&w=1200", // Grup de ballarins (nova)
+            "https://images.unsplash.com/photo-1579684385163-ea0dc0473957?auto=format&fit=crop&q=80&w=1200", // Ballarins joves (nova)
+            "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&q=80&w=1200"  // Nens ballant (nova)
+        ];
+
+        function openLightbox(index) {
+            currentImageIndex = index;
+            const lightbox = document.getElementById('lightbox');
+            updateLightboxImage();
+            
+            // Fer el lightbox visible i transicionar l'opacitat
+            lightbox.classList.remove('pointer-events-none', 'opacity-0');
+            lightbox.classList.add('opacity-100');
+            document.body.style.overflow = 'hidden'; // Evita l'scroll al fons
+        }
+
+        function updateLightboxImage(direction) {
+            const img = document.getElementById('lightbox-img');
+            
+            if (!direction) {
+                img.src = galleryImages[currentImageIndex];
+                img.style.transform = 'translateX(0)';
+                img.style.opacity = '1';
+                return;
+            }
+
+            const moveOut = direction === 'next' ? '-50px' : '50px';
+            const moveIn = direction === 'next' ? '50px' : '-50px';
+
+            // Slide out actual
+            img.style.opacity = '0';
+            img.style.transform = `translateX(${moveOut})`;
+
+            setTimeout(() => {
+                img.style.transition = 'none'; // Desactivem transició per al "teletransport"
+                img.src = galleryImages[currentImageIndex];
+                img.style.transform = `translateX(${moveIn})`;
+                
+                // Forçem un reflow per assegurar que el navegador aplica el moviment sense transició
+                img.offsetHeight;
+
+                img.style.transition = 'all 0.3s ease-out';
+                img.style.opacity = '1';
+                img.style.transform = 'translateX(0)';
+            }, 250);
+        }
+
+        function nextImage(e) {
+            if (e) e.stopPropagation();
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+            updateLightboxImage('next');
+        }
+
+        function prevImage(e) {
+            if (e) e.stopPropagation();
+            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            updateLightboxImage('prev');
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            // Iniciar la transició de fade-out
+            lightbox.classList.remove('opacity-100');
+            lightbox.classList.add('opacity-0');
+            
+            // Esperar que la transició acabi abans d'amagar-lo completament i restaurar l'scroll
+            lightbox.addEventListener('transitionend', function handler() {
+                lightbox.classList.add('pointer-events-none');
+                document.body.style.overflow = 'auto';
+                
+                // Reset d'estils de la imatge per a la propera vegada
+                const img = document.getElementById('lightbox-img');
+                img.style.transform = '';
+                img.style.opacity = '';
+                img.style.transition = '';
+
+                lightbox.removeEventListener('transitionend', handler); // Eliminar l'event listener per evitar múltiples execucions
+            });
+        }
+
+        // Tancar amb la tecla Escape
+        window.addEventListener('keydown', (e) => {
+            if (document.getElementById('lightbox').classList.contains('opacity-100')) {
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowRight') nextImage();
+                if (e.key === 'ArrowLeft') prevImage();
+            }
+        });
+
+        // Tancar clicant fora de la imatge (al fons negre)
+        document.getElementById('lightbox').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) closeLightbox();
+        });
+    </script>
+
+</body>
+</html>
